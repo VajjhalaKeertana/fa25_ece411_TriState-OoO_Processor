@@ -1,0 +1,64 @@
+[2025-10-31 18:37:54.674188] |==============================================================================|
+[2025-10-31 18:37:54.676986] |=========                      OpenRAM v1.2.48                       =========|
+[2025-10-31 18:37:54.678666] |=========                                                            =========|
+[2025-10-31 18:37:54.680181] |=========               VLSI Design and Automation Lab               =========|
+[2025-10-31 18:37:54.682148] |=========        Computer Science and Engineering Department         =========|
+[2025-10-31 18:37:54.683713] |=========            University of California Santa Cruz             =========|
+[2025-10-31 18:37:54.688034] |=========                                                            =========|
+[2025-10-31 18:37:54.689740] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2025-10-31 18:37:54.690964] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2025-10-31 18:37:54.692350] |=========                See LICENSE for license info                =========|
+[2025-10-31 18:37:54.700257] |==============================================================================|
+[2025-10-31 18:37:54.701471] ** Start: 10/31/2025 18:37:54
+[2025-10-31 18:37:54.702704] Technology: freepdk45
+[2025-10-31 18:37:54.711386] Total size: 368 bits
+[2025-10-31 18:37:54.715982] Word size: 23
+Words: 16
+Banks: 1
+[2025-10-31 18:37:54.723080] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2025-10-31 18:37:54.724348] Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+[2025-10-31 18:37:54.725511] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2025-10-31 18:37:54.726787] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2025-10-31 18:37:54.728602] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2025-10-31 18:37:54.729880] Only generating nominal corner timing.
+[2025-10-31 18:37:54.731286] Words per row: None
+[2025-10-31 18:37:54.732651] Output files are: 
+[2025-10-31 18:37:54.733858] /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.lvs
+[2025-10-31 18:37:54.735036] /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.sp
+[2025-10-31 18:37:54.736258] /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.v
+[2025-10-31 18:37:54.737401] /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.lib
+[2025-10-31 18:37:54.738660] /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.py
+[2025-10-31 18:37:54.739806] /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.html
+[2025-10-31 18:37:54.741007] /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.log
+[2025-10-31 18:37:54.742145] /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.lef
+[2025-10-31 18:37:54.743875] /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.gds
+[2025-10-31 18:37:55.917491] ** Submodules: 1.1 seconds
+[2025-10-31 18:37:55.942166] ** Placement: 0.0 seconds
+[2025-10-31 18:37:55.943633] ** Routing: 0.0 seconds
+[2025-10-31 18:37:55.945342] ** Verification: 0.0 seconds
+[2025-10-31 18:37:55.947489] ** SRAM creation: 1.2 seconds
+[2025-10-31 18:37:55.948682] SP: Writing to /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.sp
+[2025-10-31 18:37:56.013603] ** Spice writing: 0.1 seconds
+[2025-10-31 18:37:56.017942] DELAY: Writing stimulus...
+[2025-10-31 18:37:56.127667] ** DELAY: 0.1 seconds
+[2025-10-31 18:37:56.172440] GDS: Writing to /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.gds
+[2025-10-31 18:37:56.526477] ** GDS: 0.4 seconds
+[2025-10-31 18:37:56.527803] LEF: Writing to /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.lef
+[2025-10-31 18:37:56.531946] ** LEF: 0.0 seconds
+[2025-10-31 18:37:56.539665] LVS: Writing to /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.lvs.sp
+[2025-10-31 18:37:56.571307] ** LVS writing: 0.0 seconds
+[2025-10-31 18:37:56.572657] LIB: Characterizing... 
+[2025-10-31 18:37:56.821796] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2025-10-31 18:37:56.829127] ** Characterization: 0.3 seconds
+[2025-10-31 18:37:56.830422] Config: Writing to /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.py
+[2025-10-31 18:37:56.834086] ** Config: 0.0 seconds
+[2025-10-31 18:37:56.863896] Datasheet: Writing to /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.html
+[2025-10-31 18:37:56.921850] ** Datasheet: 0.1 seconds
+[2025-10-31 18:37:56.923426] Verilog: Writing to /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array.v
+[2025-10-31 18:37:56.930391] ** Verilog: 0.0 seconds
+[2025-10-31 18:37:56.931701] Extended Config: Writing to /home/aks19/ece411/mp_ooo_tristate/fa25_ece411_TriState/sram/output/mp_cache_tag_array/mp_cache_tag_array_extended.py
+[2025-10-31 18:37:56.938012] ** Extended Config: 0.0 seconds
+[2025-10-31 18:37:56.939630] ** End: 2.2 seconds
